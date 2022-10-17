@@ -1,0 +1,47 @@
+<<<<<<< HEAD
+2022-07-07T09:16:36.4328461 I/O error on POST request for "http://localhost:8080/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-07-07T10:59:10.1287803 400 : [{"timestamp":"2022-07-07T14:59:10.113+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+=======
+2022-07-07T11:18:23.225637 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-07-07T11:18:27.945248 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-07-07T11:19:21.4863366 401 : [no body]
+2022-07-07T11:20:02.8249594 401 : [no body]
+2022-07-07T11:20:06.3139705 400 : [{"timestamp":"2022-07-07T15:20:06.309+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-07-07T11:43:02.2645869 404 : [{"timestamp":"2022-07-07T15:43:02.251+00:00","status":404,"error":"Not Found","message":"No message available","path":"/accounts"}]
+2022-07-07T12:14:23.5197439 400 : [{"timestamp":"2022-07-07T16:14:23.476+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-07-07T12:14:31.5984243 500 : [{"timestamp":"2022-07-07T16:14:31.595+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"com.techelevator.tenmo.dao.UserDao.findIdByUsername(String)\" because \"this.userDao\" is null","path":"/accounts"}]
+2022-07-07T12:17:00.5188268 400 : [{"timestamp":"2022-07-07T16:17:00.473+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-07-07T12:17:04.6713027 500 : [{"timestamp":"2022-07-07T16:17:04.667+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"com.techelevator.tenmo.dao.UserDao.findIdByUsername(String)\" because \"this.userDao\" is null","path":"/accounts"}]
+2022-07-07T12:19:34.0307895 400 : [{"timestamp":"2022-07-07T16:19:34.009+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-07-07T12:19:37.3254103 500 : [{"timestamp":"2022-07-07T16:19:37.319+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"com.techelevator.tenmo.dao.UserDao.findIdByUsername(String)\" because \"this.userDao\" is null","path":"/accounts"}]
+2022-07-07T12:36:58.1881963 500 : [{"timestamp":"2022-07-07T16:36:58.172+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"com.techelevator.tenmo.dao.UserDao.findIdByUsername(String)\" because \"this.userDao\" is null","path":"/accounts"}]
+2022-07-07T12:37:34.8525286 400 : [{"timestamp":"2022-07-07T16:37:34.837+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-07-07T12:37:38.1730471 405 : [{"timestamp":"2022-07-07T16:37:38.168+00:00","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/accounts"}]
+2022-07-07T12:38:08.3657829 400 : [{"timestamp":"2022-07-07T16:38:08.348+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-07-07T12:38:19.2069079 400 : [{"timestamp":"2022-07-07T16:38:19.206+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-07-07T12:38:50.3341124 500 : [{"timestamp":"2022-07-07T16:38:50.317+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"com.techelevator.tenmo.dao.UserDao.findIdByUsername(String)\" because \"this.userDao\" is null","path":"/accounts"}]
+2022-07-07T12:40:04.987106 400 : [{"timestamp":"2022-07-07T16:40:04.944+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-07-07T12:40:11.3164689 500 : [{"timestamp":"2022-07-07T16:40:11.316+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"com.techelevator.tenmo.dao.UserDao.findIdByUsername(String)\" because \"this.userDao\" is null","path":"/accounts"}]
+2022-07-07T12:42:11.9873585 400 : [{"timestamp":"2022-07-07T16:42:11.953+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-07-07T12:42:15.5304591 500 : [{"timestamp":"2022-07-07T16:42:15.530+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"com.techelevator.tenmo.dao.UserDao.findIdByUsername(String)\" because \"this.userDao\" is null","path":"/accounts"}]
+2022-07-07T12:51:18.3206527 500 : [{"timestamp":"2022-07-07T16:50:28.418+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"com.techelevator.tenmo.dao.UserDao.findIdByUsername(String)\" because \"this.userDao\" is null","path":"/accounts"}]
+2022-07-07T12:54:41.4374279 500 : [{"timestamp":"2022-07-07T16:52:03.156+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"com.techelevator.tenmo.dao.UserDao.findIdByUsername(String)\" because \"this.userDao\" is null","path":"/accounts"}]
+2022-07-07T12:55:06.7338692 500 : [{"timestamp":"2022-07-07T16:55:06.716+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"org.springframework.jdbc.core.JdbcTemplate.queryForRowSet(String, Object[])\" because \"this.jdbcTemplate\" is null","path":"/accounts"}]
+2022-07-07T12:58:21.8776935 500 : [{"timestamp":"2022-07-07T16:58:21.837+00:00","status":500,"error":"Internal Server Error","message":"No DataSource set","path":"/accounts"}]
+2022-07-07T12:58:24.363314 500 : [{"timestamp":"2022-07-07T16:58:24.355+00:00","status":500,"error":"Internal Server Error","message":"No DataSource set","path":"/accounts"}]
+2022-07-07T12:58:54.4004507 500 : [{"timestamp":"2022-07-07T16:58:54.367+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"org.springframework.jdbc.core.JdbcTemplate.queryForRowSet(String, Object[])\" because \"this.jdbcTemplate\" is null","path":"/accounts"}]
+2022-07-07T13:01:10.3076262 500 : [{"timestamp":"2022-07-07T17:00:20.599+00:00","status":500,"error":"Internal Server Error","message":"Cannot invoke \"org.springframework.jdbc.core.JdbcTemplate.queryForRowSet(String, Object[])\" because \"this.jdbcTemplate\" is null","path":"/accounts"}]
+2022-07-07T13:06:44.8507499 500 : [{"timestamp":"2022-07-07T17:01:28.998+00:00","status":500,"error":"Internal Server Error","message":"No DataSource set","path":"/accounts"}]
+2022-07-07T13:06:50.4628742 500 : [{"timestamp":"2022-07-07T17:06:50.437+00:00","status":500,"error":"Internal Server Error","message":"No DataSource set","path":"/accounts"}]
+<<<<<<< HEAD
+>>>>>>> 55fc7d9f494389ad8d4eeb76dd03a60ed00b1471
+2022-07-07T13:40:08.0536261 400 : [{"timestamp":"2022-07-07T17:40:07.997+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+=======
+2022-07-07T13:09:21.5898545 400 : [{"timestamp":"2022-07-07T17:09:21.550+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-07-07T13:09:26.0167667 500 : [{"timestamp":"2022-07-07T17:09:26.012+00:00","status":500,"error":"Internal Server Error","message":"Invalid column name; nested exception is java.sql.SQLException: Invalid column name","path":"/accounts"}]
+2022-07-07T13:14:31.7235134 500 : [{"timestamp":"2022-07-07T17:14:31.669+00:00","status":500,"error":"Internal Server Error","message":"Invalid column name; nested exception is java.sql.SQLException: Invalid column name","path":"/accounts"}]
+>>>>>>> 366c176875cddd7211f10ac8a2a6fdb68fb9622c
+2022-07-07T20:27:04.6090487 404 : [{"timestamp":"2022-07-08T00:27:04.555+00:00","status":404,"error":"Not Found","message":"No message available","path":"/transfers"}]
+2022-07-07T20:43:11.4290284 404 : [{"timestamp":"2022-07-08T00:43:11.398+00:00","status":404,"error":"Not Found","message":"No message available","path":"/transfers"}]
+2022-07-07T20:46:05.2782061 404 : [{"timestamp":"2022-07-08T00:46:05.218+00:00","status":404,"error":"Not Found","message":"No message available","path":"/transfers"}]
+2022-07-07T21:15:32.4533207 500 : [{"timestamp":"2022-07-08T01:15:32.410+00:00","status":500,"error":"Internal Server Error","message":"No message available","path":"/transfers"}]
